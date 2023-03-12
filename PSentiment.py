@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st 
 import re
-!pip install nltk
+pip install nltk
 import nltk
 import string
 from nltk.corpus import stopwords
