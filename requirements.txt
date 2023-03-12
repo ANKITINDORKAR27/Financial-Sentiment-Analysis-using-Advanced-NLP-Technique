@@ -2,5 +2,4 @@ streamlit
 nltk
 gensim
 scikit-learn
-nltk.download('stopwords')
 stop-words
