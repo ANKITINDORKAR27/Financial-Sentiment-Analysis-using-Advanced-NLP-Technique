@@ -9,6 +9,11 @@ import numpy as np
 import streamlit as st 
 import re
 import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+
+Stopwords = set(stopwords.words('english'))
+
 import string
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
