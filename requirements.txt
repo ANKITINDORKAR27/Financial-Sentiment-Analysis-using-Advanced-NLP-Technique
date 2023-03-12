@@ -1,6 +1,5 @@
 streamlit
 nltk
-nltk==3.6.5
 nltk.download('stopwords')
 scikit-learn
 gensim
